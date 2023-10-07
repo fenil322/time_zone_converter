@@ -96,7 +96,7 @@ function App() {
         setX(x - 1440)
         return 0
       } else if (temp < 0) {
-        setX(1440 - temp)
+        setX(1440 - x)
         return (1440);
       }
       return temp;
