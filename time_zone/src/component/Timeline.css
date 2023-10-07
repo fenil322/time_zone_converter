@@ -1,0 +1,31 @@
+
+.timeline {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+   white-space: nowrap;
+   border: 1px solid #ccc;
+   padding: 10px;
+  margin: auto ;
+   
+ }
+ 
+ .timeline-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .time-marker {
+   flex: 0 0 auto;
+   width: 50px; /* Adjust this width as needed */
+   text-align: center;
+   padding: 2px;
+   margin: 0px;
+ }
+ 
+ .selected-time {
+   margin-top: 20px;
+   font-size: 18px;
+ }
+ 
